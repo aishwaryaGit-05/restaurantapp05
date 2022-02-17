@@ -1,0 +1,138 @@
+.mainWrapper {
+    height: 100%;
+}
+
+.subWrapper {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ulList {
+    display: flex;
+    position: absolute;
+    right: 0;}
+
+.ulList li {
+    list-style: none;
+    padding: 0 20px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.ulList li a {
+    color: black;
+    text-decoration: underline;
+
+}
+
+.image {
+    height: auto;
+    width: auto;
+    margin: auto auto;
+}
+
+.menuBar {
+    display: flex;
+    position: relative;
+    right: 0;
+    left: 0;
+    background: white;
+    z-index: 999;
+    height: 60px;
+}
+
+.menuWrapper {
+    padding: 10px 30px 30px;
+    height: calc(100vh - 200px);
+    overflow: scroll;
+}
+
+.menuList {
+    border-bottom: 1px solid #d5d1d1;
+    padding: 15px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuList h3, .menuList h5 {
+    margin: 0;
+}
+
+.imgSize {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.menuImage {
+    width: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.primaryButton {
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: inherit;
+    border: none;
+    padding: 10px;
+    background: #df3232;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cartImg {
+    width: 32px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.cartLength {
+    background: #ef3535;
+    padding: 3px 6px;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 14px;
+    position: relative;
+    left: -10px;
+    color: white;
+}
+
+.cartMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paddingLeft20 {
+    padding-left: 20px;
+}
+
+.imgSize14 {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+
+.confirmButton {
+    width: auto;
+    border: none;
+    padding: 10px 20px;
+    background: #df3232;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: auto auto;
+    position: relative;
+    display: block;
+    top: 35px;
+}
